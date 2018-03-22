@@ -3,8 +3,10 @@
     <img src="./assets/logo.png">
     <div>
       <p>导航:
-        <router-link to="/">首页</router-link>
-        <router-link to="/Hi">Hi首页</router-link>
+        <router-link to="/">首页</router-link> | 
+        <router-link to="/Hi">Hi首页</router-link> | 
+        <router-link to="/Hi/Hi1">Hi首页1</router-link> | 
+        <router-link to="/Hi/Hi2">Hi首页2</router-link> | 
       </p>
     </div>
     <router-view/>

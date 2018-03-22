@@ -1,15 +1,15 @@
 <template>
     <div class="hello">
         <h1>{{msg}}</h1>
-        <router-view class="aaa"></router-view>
     </div>
 </template>
+
 <script>
 export default {
-  name: "Hi",
+  name: "Hi1",
   data() {
     return {
-      msg: "Hi ,I am Tck"
+      msg: "hello I am Hi1"
     };
   }
 };
@@ -18,4 +18,3 @@ export default {
 <style scoped>
 
 </style>
-
